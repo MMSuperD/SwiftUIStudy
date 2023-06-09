@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31128B3C2A3296EA0063E572 /* FANSwiftUIProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31128B3B2A3296EA0063E572 /* FANSwiftUIProperty.swift */; };
 		8485022E2A30529500692760 /* SwiftUIStudyDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485022D2A30529500692760 /* SwiftUIStudyDemoApp.swift */; };
 		848502302A30529500692760 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485022F2A30529500692760 /* ContentView.swift */; };
 		848502322A30529500692760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848502312A30529500692760 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31128B3B2A3296EA0063E572 /* FANSwiftUIProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FANSwiftUIProperty.swift; sourceTree = "<group>"; };
 		8485022A2A30529500692760 /* SwiftUIStudyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStudyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8485022D2A30529500692760 /* SwiftUIStudyDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyDemoApp.swift; sourceTree = "<group>"; };
 		8485022F2A30529500692760 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31128B392A3296960063E572 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				31128B3B2A3296EA0063E572 /* FANSwiftUIProperty.swift */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
 		848502212A30529500692760 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		8485022C2A30529500692760 /* SwiftUIStudyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				31128B392A3296960063E572 /* Function */,
 				8485023B2A3052C200692760 /* Info.plist */,
 				8485022D2A30529500692760 /* SwiftUIStudyDemoApp.swift */,
 				8485022F2A30529500692760 /* ContentView.swift */,
@@ -143,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				848502302A30529500692760 /* ContentView.swift in Sources */,
+				31128B3C2A3296EA0063E572 /* FANSwiftUIProperty.swift in Sources */,
 				8485023D2A30530000692760 /* ActivityNotificationView.swift in Sources */,
 				8485022E2A30529500692760 /* SwiftUIStudyDemoApp.swift in Sources */,
 			);
